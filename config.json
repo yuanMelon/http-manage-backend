@@ -1,0 +1,15 @@
+{
+    "db": {
+        "host": "host",
+        "port": 62333,
+        "username": "root",
+        "password": "password",
+        "type": "mariadb",
+        "database": "user_log"
+    },
+    "server": {
+        "hostname": "127.0.0.1",
+        "port": 3000
+    },
+    "sessionSecret": "qswdfghgfdsczxvbg"
+}

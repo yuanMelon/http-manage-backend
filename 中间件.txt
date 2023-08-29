@@ -1,0 +1,17 @@
+http-errors
+express
+faker
+morgan
+uuid
+mysql2
+@sequelize/core
+sequelize
+fs
+bluebird
+
+
+首先修改util/db.js里面的数据库，db文件中包含四个数据库，将var data注释去掉后启动后端，即可将数据添加进数据库中，添加完成后将注释重新加上，避免后续启动时覆盖数据库内容。
+
+routes中包含所有接口路径，可以在projectImp中找到路径名称和路径使用方法。
+
+projectImp、project、checkParam尽量放在同一路径下
